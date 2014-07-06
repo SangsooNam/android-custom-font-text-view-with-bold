@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="@string/hello_world"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="@string/hello_world"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <su.customfont.widget.TextViewWithFont
+        android:text="@string/hello_world"
+        app:font="@string/font_normal"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <su.customfont.widget.TextViewWithFont
+        android:text="@string/hello_world"
+        app:font="@string/font_normal"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <su.customfont.widget.TextViewWithFont
+        android:text="@string/hello_world"
+        app:font="@string/font_bold"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <su.customfont.widget.TextViewWithFont
+        android:text="@string/hello_world_html"
+        app:font="@string/font_bold"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <su.customfont.widget.TextViewWithFont
+        android:id="@+id/text_html"
+        app:font="@string/font_normal"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <su.customfont.widget.TextViewWithFont
+            app:font="@string/font_normal"
+            android:text="@string/hello"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <su.customfont.widget.TextViewWithFont
+            android:layout_marginLeft="5dp"
+            app:font="@string/font_bold"
+            android:text="@string/world"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <su.customfont.widget.TextViewWithFont
+        android:text="@string/hello_world_md"
+        app:font="@string/font_normal"
+        app:fontBold="@string/font_bold"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <su.customfont.widget.EditTextWithFont
+        android:text="@string/hello_world_md"
+        app:font="@string/font_normal"
+        app:fontBold="@string/font_bold"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <su.customfont.widget.ButtonWithFont
+        android:text="@string/hello_world_md"
+        app:font="@string/font_normal"
+        app:fontBold="@string/font_bold"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

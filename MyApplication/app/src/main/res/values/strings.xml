@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CustomFont</string>
+
+    <string name="font_normal">MontereyFLF.ttf</string>
+    <string name="font_bold">MontereyFLF-Bold.ttf</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="hello_world_html"><![CDATA[Hello <b>world</b>!]]></string>
+    <string name="world">world!</string>
+    <string name="hello">Hello</string>
+    <string name="hello_world_md">Hello **world!**</string>
+</resources>
